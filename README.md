@@ -1,6 +1,6 @@
 # Random-City-Generator
 
-<p>A prototype project on building a city using cellular automata</p>
+<p>A prototype project on building a city using Cellular Automata.</p>
 
 # Screenshots
 ![Screenshot](https://github.com/FotisSpinos/Random-City-Generator-New/blob/main/Screenshots/City%20overview.png) 
