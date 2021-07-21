@@ -1,4 +1,4 @@
-# Random-City-Generator-New
+# Random-City-Generator
 
 <p>A prototype project on building a city using cellular automata</p>
 
