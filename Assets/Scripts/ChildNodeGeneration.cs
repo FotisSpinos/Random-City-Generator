@@ -82,7 +82,7 @@ namespace CityGeneration
             float offset = 20;
 
             int randomIndex;
-            Node randomNode = new Node();
+            Node randomNode = gameObject.AddComponent<Node>();
             Vector2 nodeCords = new Vector2();
             List<Vector2> generationPoints = new List<Vector2>();
 

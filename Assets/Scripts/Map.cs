@@ -64,7 +64,7 @@ namespace CityGeneration
             SetNaibors();
 
             // Set up city center and spawn medium buildings
-            cityCenterGen = new CityCenterGen();
+            cityCenterGen = gameObject.AddComponent<CityCenterGen>();
             cityCenterGen.Initialize();
             cityCenterGen.SetNodes(ref nodes);
             cityCenterGen.SetMediumBuilings(mBuildingsAm);
@@ -72,14 +72,14 @@ namespace CityGeneration
             cityCenterGen.GenerateBuildings();
 
             // Set up city side and spawn small buildings
-            citySideGen = new CitySideGen();
+            citySideGen = gameObject.AddComponent<CitySideGen>();
             citySideGen.Initialize();
             citySideGen.SetCitySideNodes(ref nodes);
             citySideGen.SetAmount(sBuildingsAm);
             citySideGen.GenerateBuildings();
 
             // Set up and spawn ground objects
-            GroundGen groundGen = new GroundGen();
+            GroundGen groundGen = gameObject.AddComponent<GroundGen>();
             groundGen.SetParentNodes(ref nodes);
             groundGen.SpawnGroundObj();
         }

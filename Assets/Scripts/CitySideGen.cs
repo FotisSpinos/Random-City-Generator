@@ -30,7 +30,7 @@ namespace CityGeneration
         {
             for (int i = 0; i < amount; i++)
             {
-                Node currentNode = new Node();
+                Node currentNode = gameObject.AddComponent<Node>();
                 int randIndex;
                 do
                 {
