@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using MapAssets;
-using MapNode;
 
-namespace MapCityCenter
+namespace CityGeneration
 {
     public class CityCenterGen : MonoBehaviour
     {
@@ -120,7 +117,7 @@ namespace MapCityCenter
                     node = cityCenterNodes[randIndex];
                 } while (node.type != Node.Type.EMPTY);
 
-                MapAssets.Assets.SpawnRandomObject(Node.Type.MED_BUILDING, ref node);
+                Assets.SpawnRandomObject(Node.Type.MED_BUILDING, ref node);
                 cityCenterNodes[randIndex] = node;
             }
 

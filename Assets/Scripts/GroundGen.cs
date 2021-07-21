@@ -1,11 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using MapAssets;
-using MapChildNodeGen;
-using MapNode;
+using CityGeneration;
 
-namespace MapGround
+namespace CityGeneration
 {
     public class GroundGen : MonoBehaviour
     {

@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using MapAssets;
-using MapNode;
 
-namespace MapCitySide
+namespace CityGeneration
 {
     public class CitySideGen : MonoBehaviour
     {

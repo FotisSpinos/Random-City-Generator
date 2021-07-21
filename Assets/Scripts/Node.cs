@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using MapChildNodeGen;
 
-namespace MapNode
+namespace CityGeneration
 {
     public class Node : MonoBehaviour
     {
